@@ -1,16 +1,21 @@
 📚 Book Manager :- A Django REST API project for managing books with PostgreSQL, fully containerized using Docker and Docker Compose.
 
-🚀 Features :-CRUD APIs for books
-              PostgreSQL as the database
-              Environment variables managed via .env
-              Containerized with Docker (supports docker-compose)
-              Follows best practices with .gitignore and .dockerignore
+🚀 Features :-CRUD APIs for books, 
+              PostgreSQL as the database, 
+              Environment variables managed via .env, 
+              Containerized with Docker (supports docker-compose), 
+              Follows best practices with .gitignore and .dockerignore, 
 
-API Endpoints (Example)
+1. API Endpoints (Example):-
+
 POST /books/create/ → Create a book
+
 GET /books/ → List all books
+
 GET /books/{id}/ → Retrieve a single book
+
 PUT /books/{id}/update → Update a book
+
 DELETE /books/{id}/delete → Delete a book
 
 📂 Project Structure:-
